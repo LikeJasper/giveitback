@@ -81,7 +81,7 @@ $db->close();
                             <h3 id="id_cta_extra" class="col s12 s-bottomless">See how much extra you're getting:</h3>
                         </div>
                     </div>
-                    <form id="calculator-form" class="col s12" onsubmit="return submitForm()">
+                    <form id="calculator-form" class="col s12">
                         <div class="row">
                             <div class="input-field col s12 m6 offset-m1">
                                 <i class="prefix">&pound;</i>
@@ -129,7 +129,7 @@ $db->close();
                             </div>
                             <div class="row">
                                 <div class="col s12 m4">
-                                    <a href="https://www.emmaus.org.uk/donate?referrer=http%3A%2F%2Fwww.giveitback.uk" target="_blank" onclick="return donateLink()">
+                                    <a href="https://www.emmaus.org.uk/donate?referrer=http%3A%2F%2Fwww.giveitback.uk" target="_blank" class="donate-link">
                                         <div class="card">
                                             <div class="card-image">
                                                 <img src="static/images/logo-emmaus.jpg">
@@ -138,13 +138,13 @@ $db->close();
                                                 <p>"Emmaus (pronounced em-MAY-us) is a homelessness charity with a difference. We don’t just give people a bed for the night; we offer a home, meaningful work and a sense of belonging."</p>
                                             </div>
                                             <div class="card-action">
-                                                <a href="https://www.emmaus.org.uk/donate?referrer=http%3A%2F%2Fwww.giveitback.uk" target="_blank" onclick="return donateLink()">Donate now</a>
+                                                <a href="https://www.emmaus.org.uk/donate?referrer=http%3A%2F%2Fwww.giveitback.uk" target="_blank" class="donate-link">Donate now</a>
                                             </div>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col s12 m4">
-                                    <a href="https://www.refuge.org.uk/single-online-donation/?referrer=http%3A%2F%2Fwww.giveitback.uk" target="_blank" onclick="return donateLink()">
+                                    <a href="https://www.refuge.org.uk/single-online-donation/?referrer=http%3A%2F%2Fwww.giveitback.uk" target="_blank" class="donate-link">
                                         <div class="card">
                                             <div class="card-image">
                                                 <img src="static/images/logo-refuge.png">
@@ -154,13 +154,13 @@ $db->close();
                                                 <p>"On any given day Refuge supports over 3,300 women and children experiencing domestic violence, sexual violence, female genital mutilation (FGM), forced marriage, stalking, trafficking, prostitution and so-called ‘honour’ based violence."</p>
                                             </div>
                                             <div class="card-action">
-                                                <a href="https://www.refuge.org.uk/single-online-donation/?referrer=http%3A%2F%2Fwww.giveitback.uk" target="_blank" onclick="return donateLink()">Donate now</a>
+                                                <a href="https://www.refuge.org.uk/single-online-donation/?referrer=http%3A%2F%2Fwww.giveitback.uk" target="_blank" class="donate-link">Donate now</a>
                                             </div>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col s12 m4">
-                                    <a href="http://donate.foodcycle.org.uk/portal/public/donate/donate.aspx?referrer=http%3A%2F%2Fwww.giveitback.uk" target="_blank" onclick="return donateLink()">
+                                    <a href="http://donate.foodcycle.org.uk/portal/public/donate/donate.aspx?referrer=http%3A%2F%2Fwww.giveitback.uk" target="_blank" class="donate-link">
                                         <div class="card">
                                             <div class="card-image">
                                                 <img src="static/images/logo-foodcycle.jpg">
@@ -170,7 +170,7 @@ $db->close();
                                                 <p>"FoodCycle runs volunteer-powered community projects across the UK – all working to reduce food poverty and social isolation by serving tasty, nutritious meals to vulnerable people."</p>
                                             </div>
                                             <div class="card-action">
-                                                <a href="http://donate.foodcycle.org.uk/portal/public/donate/donate.aspx?referrer=http%3A%2F%2Fwww.giveitback.uk" target="_blank" onclick="return donateLink()">Donate now</a>
+                                                <a href="http://donate.foodcycle.org.uk/portal/public/donate/donate.aspx?referrer=http%3A%2F%2Fwww.giveitback.uk" target="_blank" class="donate-link">Donate now</a>
                                             </div>
                                         </div>
                                     </a>
