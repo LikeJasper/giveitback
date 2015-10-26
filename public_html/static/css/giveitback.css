@@ -1,0 +1,145 @@
+body {
+    font-family: 'Muli', 'Roboto', 'Helvetica', sans-serif;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.taxes-img-bg {
+    background-image: url("/static/images/hop.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100%;
+    min-height: 625px;
+}
+
+.dark-container {
+    background-color: rgba(33,33,33,0.7);
+    border-radius: 3px;
+}
+
+#leader {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.heading-spacer {
+    min-height: 40px;
+}
+
+#leader-heading {
+    border-radius: 3px;
+}
+
+#hidden-stuff {
+    padding-top: 20px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+#id_disclaimer {
+    font-size: 10px;
+    margin: 0px;
+}
+
+#donate {
+    padding-bottom: 0px;
+}
+
+#id_foodcycle_description {
+    font-size: 18px;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0px;
+}
+
+#about_text p {
+    font-size: 18px;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+#about_text p.small-text {
+    font-size: 15px;
+}
+
+.faq-question {
+    font-weight: bold;
+}
+
+main {
+    padding-bottom: 70px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index: 10000;
+}
+
+.footer-spacer {
+    min-height: 20px;
+}
+
+.large-text {
+    font-size: 200%;
+}
+
+@media (max-width: 1200px) {
+
+    .taxes-img-bg {
+        background-size: 1200px 750px; /* Force the image to its minimum width */
+    }
+
+}
+
+@media (max-width: 600px) {
+    main {
+        padding-bottom: 0px;
+    }
+    .heading-spacer {
+        min-height: 0px;
+    }
+    .s-bottomless {
+        margin-bottom: 0px;
+    }
+    #id_cta_extra {
+        font-size: 25px;
+    }
+    footer {
+        position: static;
+    }
+}
+
+/* label underline focus color */
+.input-field input[type=number]:focus {
+ border-bottom: 1px solid #fff;
+ box-shadow: 0 1px 0 0 #fff;
+}
+/* valid color */
+.input-field input[type=number].valid {
+ border-bottom: 1px solid #0c0;
+ box-shadow: 0 1px 0 0 #0c0;
+}
+/* invalid color */
+.input-field input[type=number].invalid {
+ border-bottom: 1px solid #fff;
+ box-shadow: 0 1px 0 0 #fff;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+ color: #0c0;
+}
+
+.card .card-action a {
+color: #0c0;
+}
+
+.card .card-action a:hover {
+color: #3e3;
+}
