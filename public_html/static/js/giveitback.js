@@ -92,7 +92,8 @@
         return (tax_gain + ni_gain);
     }
 
-    function submitForm() {
+    $('form#calculator-form').submit(function (event) {
+        event.preventDefault();
         var salary = $("#salary"),
             salary_amount = salary.val(),
             period = $('select#period').val(),
@@ -100,7 +101,7 @@
             monthly_value;
         if (salary_amount === "") {
             salary.focus();
-        } else if (salary.checkValidity() === true) {
+        } else {
             if (period === "monthly") {
                 salary_amount *= 12;
             }
@@ -125,13 +126,13 @@
             }, 900, 'swing');
         }
         return false;
-    }
+    });
 
-    function donateLink() {
+    $('.donate-link').click(function () {
         $('html, body').stop().animate({
             scrollTop: $("#id_social_buttons").offset().top
         }, 'fast');
         return true;
-    }
+    });
 
 }());
